@@ -1,8 +1,8 @@
-# Tetris Game
+# 🎮Tetris Game
 
 A classic Tetris game implementation in C++ for Windows consoles, featuring colorful blocks, multiple difficulty levels, a hold piece mechanic, and a scoring system. Built with standard C++ libraries and Windows-specific console functions for rendering and input handling.
 
-## Features
+## ✨Features
 - **Tetrominoes**: Standard 7 shapes (I, O, T, S, Z, J, L) with unique colors.
 - **Game Mechanics**:
   - Move pieces left/right (`a`/`d`).
@@ -17,7 +17,7 @@ A classic Tetris game implementation in C++ for Windows consoles, featuring colo
 - **Highscore**: Tracks the session's highest score.
 - **Menus**: Interactive main menu, mode selection, and play-again options with arrow key navigation.
 
-## Requirements
+## 🛠Requirements
 - **Operating System**: Windows (uses `windows.h` and `conio.h` for console manipulation).
 - **Compiler**: Any C++ compiler supporting C++11 or later (e.g., MinGW, MSVC).
 - **Libraries**: Standard C++ libraries (`<bits/stdc++.h>`) and Windows-specific headers.
@@ -30,7 +30,7 @@ A classic Tetris game implementation in C++ for Windows consoles, featuring colo
 3. **Run**: Execute the compiled binary (`tetris.exe`) in a Windows Command Prompt or double-click the executable.
    - *Note*: Ensure the console window is maximized for the best experience.
 
-## Gameplay Instructions
+## 🎮Gameplay Instructions
 1. **Start**: Launch the game, enter board width (min 10 recommended) and height (min 20 recommended).
 2. **Main Menu**:
    - Use arrow keys (`up`/`down`) to navigate, `Enter` to select.
@@ -49,17 +49,17 @@ A classic Tetris game implementation in C++ for Windows consoles, featuring colo
    - `r`: Resume
 5. **Objective**: Clear lines by filling rows with blocks. Game ends when blocks stack to the top.
 
-## Code Structure
+## 🖥️Code Structure
 - **Tetromino Class**: Manages piece shapes, rotation, and positioning.
 - **TetrisGame Class**: Core game logic, including grid management, rendering, and input processing.
 - **Menu Functions**: Handle user interface and selections.
 - **Main Loop**: Orchestrates game flow with custom board size, difficulty, and replay options.
 - **Constants**: Shape definitions, colors, and speeds defined globally.
 
-## Limitations
+## ❌Limitations
 - Windows-only due to reliance on `windows.h` and `conio.h`.
 - Console-based rendering may flicker or behave inconsistently on some systems.
 - No persistent highscore saving (resets each session).
 
-## License
+## 📜License
 This project is unlicensed and free to use or modify for personal or educational purposes. Credit to the original author is appreciated.
