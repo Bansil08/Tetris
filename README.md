@@ -61,5 +61,17 @@ A classic Tetris game implementation in C++ for Windows consoles, featuring colo
 - Console-based rendering may flicker or behave inconsistently on some systems.
 - No persistent highscore saving (resets each session).
 
+## How To Run
+
+1. Compile the program using a C++ compiler (MinGW/GCC recommended):
+
+```bash
+  g++ tetris.cpp -o tetris
+```
+2. Run
+```bash
+  tetris.exe
+```
+
 ## 📜License
 This project is unlicensed and free to use or modify for personal or educational purposes. Credit to the original author is appreciated.
