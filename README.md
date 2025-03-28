@@ -22,14 +22,6 @@ A classic Tetris game implementation in C++ for Windows consoles, featuring colo
 - **Compiler**: Any C++ compiler supporting C++11 or later (e.g., MinGW, MSVC).
 - **Libraries**: Standard C++ libraries (`<bits/stdc++.h>`) and Windows-specific headers.
 
-## How to Compile and Run
-1. **Clone or Download**: Obtain the source code (`tetris.cpp`).
-2. **Compile**:
-   - Using MinGW: `g++ tetris.cpp -o tetris.exe`
-   - Using MSVC: Open in Visual Studio and build the project.
-3. **Run**: Execute the compiled binary (`tetris.exe`) in a Windows Command Prompt or double-click the executable.
-   - *Note*: Ensure the console window is maximized for the best experience.
-
 ## 🎮Gameplay Instructions
 1. **Start**: Launch the game, enter board width (min 10 recommended) and height (min 20 recommended).
 2. **Main Menu**:
