@@ -61,11 +61,5 @@ A classic Tetris game implementation in C++ for Windows consoles, featuring colo
 - Console-based rendering may flicker or behave inconsistently on some systems.
 - No persistent highscore saving (resets each session).
 
-## Future Enhancements
-- Cross-platform support (e.g., using `ncurses` for Linux).
-- Persistent highscore storage (file I/O).
-- Sound effects or background music.
-- Ghost piece preview for better placement planning.
-
 ## License
 This project is unlicensed and free to use or modify for personal or educational purposes. Credit to the original author is appreciated.
